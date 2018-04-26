@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="1000" maxWidth="488.0" prefHeight="855.0" prefWidth="488.0" snapToPixel="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="whitBG" layoutX="-8.0" layoutY="158.0" prefHeight="855.0" prefWidth="910.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="settingsTab" layoutY="83.0" prefHeight="855.0" prefWidth="910.0" style="-fx-background-color: #28374f;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="49.0" layoutY="63.0" prefHeight="60.0" prefWidth="170.0" text="OS:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <JFXRadioButton layoutX="211.0" layoutY="63.0" prefHeight="51.0" prefWidth="192.0" selected="true" text="Windows" textFill="#dee3ea">
+               <toggleGroup>
+                  <ToggleGroup fx:id="toggle1" />
+               </toggleGroup>
+            </JFXRadioButton>
+            <JFXRadioButton layoutX="571.0" layoutY="69.0" prefHeight="40.0" prefWidth="131.0" text="Mac" textFill="#dee3ea" toggleGroup="$toggle1" />
+            <Label layoutX="49.0" layoutY="171.0" prefHeight="60.0" prefWidth="360.0" text="Path to ChromeDriver:" textFill="#dee3ea" />
+            <JFXButton layoutX="565.0" layoutY="176.0" prefHeight="51.0" prefWidth="144.0" ripplerFill="#53da49" style="-fx-background-color: orange;" text="..." textFill="#28374f" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="ccTab" layoutX="2.0" layoutY="62.0" prefHeight="713.0" prefWidth="802.0" style="-fx-background-color: #28374f;">
+         <children>
+            <JFXButton fx:id="loadButton" layoutX="171.0" layoutY="702.0" prefHeight="51.0" prefWidth="144.0" ripplerFill="#53da49" style="-fx-background-color: orange;" text="Load" textFill="#28374f">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXButton>
+            <Label layoutX="220.0" layoutY="14.0" prefHeight="60.0" prefWidth="438.0" text="Credit Card Information" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="91.0" prefHeight="60.0" prefWidth="170.0" text="Name:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="CENTER" layoutX="412.0" layoutY="95.0" minHeight="0.0" minWidth="0.0" prefHeight="51.0" prefWidth="366.0" promptText="John Doe" style="-fx-background-color: #dee3ea;">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="86.0" layoutY="147.0" prefHeight="60.0" prefWidth="170.0" text="Email:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="205.0" prefHeight="60.0" prefWidth="170.0" text="Telephone #:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="CENTER" layoutX="412.0" layoutY="151.0" prefHeight="51.0" prefWidth="366.0" promptText="email@email.com" style="-fx-background-color: #dee3ea;">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField alignment="CENTER" layoutX="412.0" layoutY="209.0" prefHeight="51.0" prefWidth="366.0" promptText="123-456-7890" style="-fx-background-color: #dee3ea;">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="86.0" layoutY="262.0" prefHeight="60.0" prefWidth="170.0" text="Address:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="CENTER" layoutX="412.0" layoutY="266.0" prefHeight="51.0" prefWidth="366.0" promptText="2014 Forest Hills Drive" style="-fx-background-color: #dee3ea;">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="86.0" layoutY="318.0" prefHeight="60.0" prefWidth="170.0" text="Apt, Unit, Etc:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="CENTER" layoutX="412.0" layoutY="322.0" prefHeight="51.0" prefWidth="366.0" promptText="Apartment" style="-fx-background-color: #dee3ea;">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="86.0" layoutY="373.0" prefHeight="60.0" prefWidth="170.0" text="Zip Code:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="CENTER" layoutX="412.0" layoutY="378.0" prefHeight="51.0" prefWidth="366.0" promptText="12345" style="-fx-background-color: #dee3ea;">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField alignment="CENTER" layoutX="412.0" layoutY="433.0" prefHeight="51.0" prefWidth="366.0" promptText="Fayetteville" style="-fx-background-color: #dee3ea;">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="86.0" layoutY="429.0" prefHeight="60.0" prefWidth="170.0" text="City: " textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="CENTER" layoutX="412.0" layoutY="489.0" prefHeight="51.0" prefWidth="366.0" promptText="1234567812345678" style="-fx-background-color: #dee3ea;">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="86.0" layoutY="485.0" prefHeight="60.0" prefWidth="170.0" text="CC #:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="541.0" prefHeight="60.0" prefWidth="170.0" text="Exp Date:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <JFXTextField alignment="CENTER" layoutX="412.0" layoutY="601.0" prefHeight="51.0" prefWidth="124.0" promptText="123" style="-fx-background-color: #dee3ea;">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXTextField>
+            <JFXComboBox layoutX="412.0" layoutY="546.0" prefHeight="51.0" prefWidth="124.0" style="-fx-background-color: #dee3ea;" />
+            <Label layoutX="86.0" layoutY="597.0" prefHeight="60.0" prefWidth="170.0" text="CVV:" textFill="#dee3ea">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </Label>
+            <JFXComboBox layoutX="565.0" layoutY="546.0" prefHeight="51.0" prefWidth="144.0" style="-fx-background-color: #dee3ea;" />
+            <JFXButton fx:id="loadButton1" layoutX="474.0" layoutY="702.0" prefHeight="51.0" prefWidth="144.0" ripplerFill="#53da49" style="-fx-background-color: orange;" text="Save" textFill="#28374f">
+               <font>
+                  <Font name="Lucida Bright Regular" size="24.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane style="-fx-background-color: #28374f;">
+         <children>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="227.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="39.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/settings.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="131.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/cc.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
